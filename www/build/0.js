@@ -73,7 +73,7 @@ var PostPage = (function () {
 PostPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-post',template:/*ion-inline-start:"C:\Users\devel_1\Desktop\IONIC\wordpress1\ionic-wp-api-v1\src\pages\post\post.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>{{ post.title }}</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <img [src]="post.media_url | async">\n  <div [innerHTML]="post.content" padding></div>\n</ion-content>'/*ion-inline-end:"C:\Users\devel_1\Desktop\IONIC\wordpress1\ionic-wp-api-v1\src\pages\post\post.html"*/,
+        selector: 'page-post',template:/*ion-inline-start:"D:\ARCHIVOS\PROYECTOS_IONIC\ionic-wp-json-v1\src\pages\post\post.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <ion-title>{{ post.title }}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <img [src]="post.media_url | async">\n\n  <div [innerHTML]="post.content" padding></div>\n\n</ion-content>'/*ion-inline-end:"D:\ARCHIVOS\PROYECTOS_IONIC\ionic-wp-json-v1\src\pages\post\post.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_wp_wp__["a" /* WpProvider */]])
 ], PostPage);

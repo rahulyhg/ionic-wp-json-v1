@@ -205,7 +205,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\Users\devel_1\Desktop\IONIC\wordpress1\ionic-wp-api-v1\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>\n      Titol\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-card *ngFor="let post of posts | async" (click)="openPost(post)" tappable>\n    <img [src]="post.media_url | async">\n    <ion-item>\n      <ion-avatar item-left>\n        <img [src]="getUserImage(post.authorId)">\n      </ion-avatar>\n      <h2>{{ getUserName(post.authorId) }}</h2>\n    </ion-item>\n    <ion-card-content>\n      <ion-card-title>\n        {{ post.title }}\n      </ion-card-title>\n      <div [innerHTML]="post.excerpt"></div>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\Users\devel_1\Desktop\IONIC\wordpress1\ionic-wp-api-v1\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"D:\ARCHIVOS\PROYECTOS_IONIC\ionic-wp-json-v1\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <ion-title>\n\n      Titol\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-card *ngFor="let post of posts | async" (click)="openPost(post)" tappable>\n\n    <img [src]="post.media_url | async">\n\n    <ion-item>\n\n      <ion-avatar item-left>\n\n        <img [src]="getUserImage(post.authorId)">\n\n      </ion-avatar>\n\n      <h2>{{ getUserName(post.authorId) }}</h2>\n\n    </ion-item>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        {{ post.title }}\n\n      </ion-card-title>\n\n      <div [innerHTML]="post.excerpt"></div>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\ARCHIVOS\PROYECTOS_IONIC\ionic-wp-json-v1\src\pages\home\home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_wp_wp__["a" /* WpProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], HomePage);
@@ -344,7 +344,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"C:\Users\devel_1\Desktop\IONIC\wordpress1\ionic-wp-api-v1\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\devel_1\Desktop\IONIC\wordpress1\ionic-wp-api-v1\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"D:\ARCHIVOS\PROYECTOS_IONIC\ionic-wp-json-v1\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"D:\ARCHIVOS\PROYECTOS_IONIC\ionic-wp-json-v1\src\app\app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
