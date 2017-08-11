@@ -75,10 +75,9 @@ PostPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'page-post',template:/*ion-inline-start:"C:\Users\devel_1\Desktop\IONIC\wordpress1\ionic-wp-api-v1\src\pages\post\post.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>{{ post.title }}</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <img [src]="post.media_url | async">\n  <div [innerHTML]="post.content" padding></div>\n</ion-content>'/*ion-inline-end:"C:\Users\devel_1\Desktop\IONIC\wordpress1\ionic-wp-api-v1\src\pages\post\post.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_wp_wp__["a" /* WpProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_wp_wp__["a" /* WpProvider */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_wp_wp__["a" /* WpProvider */]])
 ], PostPage);
 
-var _a, _b, _c;
 //# sourceMappingURL=post.js.map
 
 /***/ })

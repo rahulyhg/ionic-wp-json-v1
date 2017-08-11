@@ -16,7 +16,7 @@ import {
 } from 'wp-api-angular'
 
 export function WpApiLoaderFactory(http) {
-  return new WpApiStaticLoader(http, 'http://teatrelloseta.testdom.es/wp-json/', /* namespace is optional, default: '/wp/v2' */);
+  return new WpApiStaticLoader(http, 'http://teatrelloseta.testdom.es/wp-json', /* namespace is optional, default: '/wp/v2' */);
 }
 
 @NgModule({

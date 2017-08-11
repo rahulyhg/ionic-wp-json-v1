@@ -105,9 +105,10 @@ var WpProvider = (function () {
 }());
 WpProvider = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiPosts"], __WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiMedia"], __WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiUsers"]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiPosts"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiPosts"]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiMedia"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiMedia"]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiUsers"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_wp_api_angular__["WpApiUsers"]) === "function" && _c || Object])
 ], WpProvider);
 
+var _a, _b, _c;
 //# sourceMappingURL=wp.js.map
 
 /***/ }),
@@ -262,7 +263,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 function WpApiLoaderFactory(http) {
-    return new __WEBPACK_IMPORTED_MODULE_9_wp_api_angular__["WpApiStaticLoader"](http, 'http://teatrelloseta.testdom.es/wp-json/');
+    return new __WEBPACK_IMPORTED_MODULE_9_wp_api_angular__["WpApiStaticLoader"](http, 'http://teatrelloseta.testdom.es/wp-json');
 }
 var AppModule = (function () {
     function AppModule() {
